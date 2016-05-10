@@ -1,0 +1,38 @@
+footer-el {
+  width: 100vw;
+  text-align: center;
+  .footer-contact {
+    padding: 2.5em;
+    background: #757575;
+    h1 {
+      text-align: center;
+      font-size: 30px;
+      font-weight: 900;
+      color: #fff;
+      line-height: 30px;
+      margin: 0;
+    }
+    div {
+      p {
+        margin: 0;
+        font-family: 'Lato', serif;
+        font-size: 1.125em;
+        color: #4c4c4c;
+        line-height: 1.5;
+        font-weight: 100;
+      }
+    }
+  }
+  .footer-copyright {
+    padding: 2em;
+    background: #212121;
+    span {
+      width: 100%;
+      font-size: 18px;
+      color: #757575;
+      margin: 0;
+      text-align: center;
+      font-weight: 300;
+    }
+  }
+}

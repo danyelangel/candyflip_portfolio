@@ -1,0 +1,9 @@
+{
+  "firebase": "candyflip",
+  "public": "build/app",
+  "ignore": [
+    "firebase.json",
+    "**/.*",
+    "**/node_modules/**"
+  ]
+}

@@ -1,0 +1,53 @@
+html {
+  overflow-x: hidden;
+}
+body {
+  font-family: 'Lato', sans-serif;
+}
+
+app-el {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: #FAFAFA;
+}
+
+div[ng-bind-html], div[medium-editor] {
+}
+p, ul, li, div[ng-bind-html], div[medium-editor], a, i {
+  color: #999;
+  font-size: 20px;
+  font-weight: 300;
+  div.medium-editor-placeholder::after {
+    margin: 0;
+  }
+  p {
+    margin: 0;
+  }
+  b {
+    font-weight: 700;
+    color: #666;
+  }
+  p > a[href], li > a[href] {
+    color: #607D8B;
+    font-weight: 700;
+    text-decoration: none;
+  }
+  p > a[href]:hover, li > a[href]:hover {
+    text-decoration: underline;
+    cursor: pointer;
+  }
+  ul {
+    padding: 0;
+  }
+  li {
+    list-style: none;
+    padding-left: 0.5em;
+  }
+}
+.medium-editor-placeholder:after {
+  color: inherit;
+  opacity: 0.5;
+  font-style: normal;
+}

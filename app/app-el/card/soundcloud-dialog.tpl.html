@@ -1,0 +1,31 @@
+<md-dialog aria-label="Login" ng-cloak>
+  <md-toolbar>
+    <div class="md-toolbar-tools">
+      <h2>Edit Soundcloud</h2>
+      <span flex></span>
+    </div>
+  </md-toolbar>
+  <md-dialog-content>
+    <div class="md-dialog-content" layout="row">
+      <div flex layout="column">
+        <div ng-bind-html="soundcloudHtml"></div>
+        <md-input-container>
+          <label>Insert Link</label>
+          <input ng-model="url" ng-change="getSoundcloud(url)">
+        </md-input-container>
+      </div>
+    </div>
+  </md-dialog-content>
+  <md-dialog-actions layout="row">
+    <md-button ng-click="cancel()">
+      Cancel
+    </md-button>
+    <span flex></span>
+    <md-button ng-click="remove()" ng-show="soundcloudHtml">
+      No embed
+    </md-button>
+    <md-button class="md-primary" ng-click="done(url)" ng-disabled="!urlIsValid">
+      Save
+    </md-button>
+  </md-dialog-actions>
+</md-dialog>

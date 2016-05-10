@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang='en' data-ng-app='candyflip'>
+  <head>
+    <title>Candy Flip - Login</title>
+    <meta name='viewport' content='width=device-width, minimum-scale=1.0, initial-scale=1.0, user-scalable=yes'>
+  </head>
+  <body>
+    <script src="https://cdn.firebase.com/js/client/2.4.1/firebase.js"></script>
+    <script type="text/javascript">
+      var ref = new Firebase('https://candyflip.firebaseio.com/'),
+          password = window.prompt('Introduzca contraseña');
+      (function auth() {
+        ref.authWithPassword({
+          email: 'danyelangel@hotmail.com',
+          password: password
+        }, function(error, authData) {
+          if (error) {
+            auth();
+          } else {
+            window.location.href = document.location.origin;
+          }
+        });
+      })();
+    </script>
+  </body>
+</html>

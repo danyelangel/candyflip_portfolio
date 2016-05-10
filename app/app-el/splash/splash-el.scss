@@ -1,0 +1,40 @@
+.splash {
+  width: 100vw;
+  height: 100vh;
+  background: url(/images/cover.jpg);
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  .image,
+  .languages {
+    width: 80%;
+    max-width: 500px;
+  }
+  .image img {
+    width: 100%;
+    height: auto;
+  }
+  .languages {
+    display: flex;
+    justify-content: center;
+    color: #999;
+    a, span {
+      cursor: pointer;
+      padding: 0.5em;
+      text-transform: uppercase;
+      text-shadow: 0 1px 15px rgba(0, 0, 0, 0.9);
+    }
+    span, a.active {
+      cursor: default;
+    }
+    a.active, a:hover  {
+      color: #fff;
+    }
+    a.active:hover {
+      text-decoration: none;
+    }
+  }
+}

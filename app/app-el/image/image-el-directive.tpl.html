@@ -1,0 +1,25 @@
+<div class="thumbnail"
+     ng-mouseenter="hover=true"
+     ng-mouseleave="hover=false"
+     ng-class="{edit: image.authData && hover}">
+  <img ng-src="{{image.image.metadata.httpsURL}}"
+       ng-if="image.image.metadata"
+       alt="">
+  <div class="imageAdd"
+       ng-if="image.authData && !image.image.metadata.httpsURL">
+    <input type="file"
+           ngf-select="image.setImg($file)"
+           accept="image/*"
+           ngf-resize="{width: 600, height: 600, quality: .8, type: 'image/jpeg'}" />
+  </div>
+  <div class="imageUpdate"
+       ng-if="image.authData && image.image.metadata.httpsURL">
+    <input type="file" 
+           ngf-select="image.setImg($file)"
+           accept="image/*"
+           ngf-resize="{width: 600, height: 600, quality: .8, type: 'image/jpeg'}" />
+  </div>
+  <div class="imageDelete"
+       ng-if="image.authData && image.image.metadata.httpsURL"
+       ng-click="image.remove()"></div>
+</div>

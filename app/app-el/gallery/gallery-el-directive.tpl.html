@@ -1,0 +1,14 @@
+<div layout="row" layout-wrap>
+  <div layout-padding 
+       flex="50"
+       ng-repeat="imageKey in vm.gallery.children"
+       ng-show="imageExists[$index] || vm.authData">
+    <div>
+      <image-el key="imageKey"
+                on-add="vm.onAdd()"
+                on-remove="vm.onRemove($index)"
+                image-exists="imageExists[$index]"></image-el>
+    </div>
+  </div>
+</div>
+<div ng-transclude></div>

@@ -1,0 +1,55 @@
+.article-wrapper {
+  max-width: 750px;
+  width: 100%;
+  position: relative;
+  article-el {
+    padding-right: 1em;
+    padding-left: 1em;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 3em;
+    padding-top: 3em;
+    border-bottom: 1px solid #eee;
+    h1, h2 {
+      margin: 0;
+    }
+    h1 {
+      font-size: 32px;
+      font-weight: 500;
+      text-transform: uppercase;
+    }
+    h2 {
+      font-size: 24px;
+    }
+    .article-description {
+      margin-bottom: 1.5em;
+    }
+  }
+  a {
+    cursor: pointer;
+  }
+  .add-card, .remove-article {
+    opacity: 0;
+    transition: opacity 0.15s;
+  }
+  .add-card.hover, .remove-article.hover {
+    opacity: 1;
+  }
+  .add-card {
+    width: 100%;
+    display: block;
+    height: 0;
+    text-align: center;
+    i {
+      vertical-align: bottom;
+    }
+  }
+  .remove-article {
+    position: absolute;
+    right: -3em;
+    margin: 3em;
+  }
+  .add-card:hover, .remove-article:hover {
+    opacity: 0.75;
+  }
+}

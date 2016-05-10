@@ -1,0 +1,64 @@
+<a ng-if="app.authData"
+   class="unauth"
+   ng-click="app.unauth()">Cerrar Sesi&oacute;n</a>
+
+<splash-el>
+  <a ng-click="app.setLang('es')"
+     ng-class="{active:app.lang==='es'}">Espa&ntilde;ol</a>
+  <span>|</span>
+  <a ng-click="app.setLang('en')"
+     ng-class="{active:app.lang==='en'}">English</a>
+</splash-el>
+
+<div class="article-wrapper" 
+     ng-repeat="article in app.articles">
+  <a class="remove-article"
+     ng-if="app.authData"
+     ng-class="{hover:hoverArticle[article.$id]}"
+     ng-click="app.removeArticle(article.$id)"
+     alt="Borrar Artículo">
+    <i class="material-icons">delete</i>
+    <md-tooltip md-direction="bottom">
+      Remove article
+    </md-tooltip>
+  </a>
+  <article-el data="article" 
+              ng-mouseenter="hoverArticle[article.$id]=true"
+              ng-mouseleave="hoverArticle[article.$id]=false">
+    <div layout="column">
+      <card-el ng-repeat="cardKey in article.children" 
+               wc-ready="app.cardsReady[cardKey]"
+               wc-key="cardKey"
+               ng-mouseenter="hoverCard[cardKey]=true;
+                              hoverArticle[article.$id]=false"
+               ng-mouseleave="hoverCard[cardKey]=false;
+                              hoverArticle[article.$id]=true">
+        <div class="controls"
+             ng-if="app.authData"
+             ng-class="{hover:hoverCard[cardKey]}">
+          <a class="remove-card"
+             ng-click="app.removeCard($index, cardKey, article.$id)">
+            <i class="material-icons">delete</i>
+            <md-tooltip md-direction="bottom">
+              Remove card
+            </md-tooltip>
+          </a>
+        </div>
+      </card-el>
+    </div>
+    <a class="add-card"
+       ng-if="app.authData"
+       ng-class="{hover:hoverArticle[article.$id]}"
+       ng-click="app.addCard(article.$id)"
+       alt="Añadir Tarjeta">
+      <i class="material-icons">add_circle_outline</i>
+      Add Card
+    </a>
+  </article-el>
+</div>
+<a ng-if="app.authData"
+   class="add-article"
+   ng-click="app.addArticle()">
+  Add Article
+</a>
+<footer-el></footer-el>

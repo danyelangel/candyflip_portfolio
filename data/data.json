@@ -1,0 +1,380 @@
+{
+  "articles" : {
+    "-KBBpS_o4Ar0vraEswLX" : {
+      "textKey" : "-KBBpSZ2b1PN4i4CVyU6"
+    },
+    "-KBBuTFMRGsrS4JLe6ki" : {
+      "textKey" : "-KBBuTDcvsoDvjXo_qyX"
+    },
+    "-KBBucLNG_QxixZcemcL" : {
+      "textKey" : "-KBBucJSyCJX8IbRnwY-"
+    },
+    "-KBBuk_Hly1tQReeq4yU" : {
+      "children" : {
+        "-KBBurkvv5HysiPz5ugF" : "-KBBurhqTaf0YgLlLWXG",
+        "-KBBuwvxvtFjOipn70Sx" : "-KBBuwu9CnZAgh550yrF"
+      },
+      "textKey" : "-KBBukYTQm5RkvFjMxo-"
+    },
+    "-KBBvDZuNZ6_xv5bWqqU" : {
+      "children" : {
+        "-KBBvHXC3nTQpVp_Epi1" : "-KBBvHV_yOHopI2lGXd9"
+      },
+      "textKey" : "-KBBvD0HKOSeDNPdiKVw"
+    },
+    "-KBBvPc1vo03qeoQjGO8" : {
+      "children" : {
+        "-KBBvUlbOsMjMDt0vKsQ" : "-KBBvUjrgLPDidZd5pJM",
+        "-KBBw4KFzvmmA-Wkeceg" : "-KBBw4IcEvhZhwZRo9Jk",
+        "-KBBwIb3poTVMlM6UIX1" : "-KBBwITH3HHfI7wn2RjP"
+      },
+      "textKey" : "-KBBvPWTZmlqorz8NFFR"
+    },
+    "-KBBwSdIRoTLU_Aqtap5" : {
+      "children" : {
+        "-KBBwV9b3F9DDxKA70aQ" : "-KBBwV7xmq23OuIiraSh",
+        "-KBBwi_GU1N2EuH92qB3" : "-KBBwiYYsVgVdLNT2ZlY",
+        "-KBBwqmYaeMU8hyh1zDm" : "-KBBwqhCQvpovH7TcgCr"
+      },
+      "textKey" : "-KBBwSBW-K2z_J_R2oiA"
+    },
+    "-KBBxAF7E-MCkh-VuSMz" : {
+      "children" : {
+        "-KBBxHwz2bKy6RiaI2Oa" : "-KBBxHqvn9UQk5pMoVvp",
+        "-KBBxRMy8GIJPJXjnhxX" : "-KBBxRA4Vqgbe2ZNb2_9",
+        "-KBBy2fHQMszYeei1xk2" : "-KBBy2XYTPIm-xUYxkde"
+      },
+      "textKey" : "-KBBxA6pE9v8xlPPO1DU"
+    }
+  },
+  "cards" : {
+    "-KBBurhqTaf0YgLlLWXG" : {
+      "imageKey" : "-KBBur_tm-hh-p_0poJ3",
+      "textKey" : "-KBBurXtK__BWJxYghZ5"
+    },
+    "-KBBuwu9CnZAgh550yrF" : {
+      "imageKey" : "-KBBuws6hEKJZkviMMmU",
+      "textKey" : "-KBBuwqSzwrpgxG1DpsE"
+    },
+    "-KBBvHV_yOHopI2lGXd9" : {
+      "imageKey" : "-KBBvH3IBBoqMRcd1D4u",
+      "textKey" : "-KBBvGstNYqvTBYUXe6y"
+    },
+    "-KBBvUjrgLPDidZd5pJM" : {
+      "imageKey" : "-KBBvUi78uSJ2jByk5-C",
+      "textKey" : "-KBBvUgb-FdlaXDOeRXk"
+    },
+    "-KBBw4IcEvhZhwZRo9Jk" : {
+      "imageKey" : "-KBBw4H21Q5DjycgdAZU",
+      "textKey" : "-KBBw4FJiojbSe6APnoW"
+    },
+    "-KBBwITH3HHfI7wn2RjP" : {
+      "imageKey" : "-KBBwIJrB-sNnGLBw_kB",
+      "textKey" : "-KBBwIAew3KjdJhMnUum"
+    },
+    "-KBBwV7xmq23OuIiraSh" : {
+      "imageKey" : "-KBBwV4sEJPk3W3s_wKv",
+      "textKey" : "-KBBwV1c-ddktQiGQSNI"
+    },
+    "-KBBwiYYsVgVdLNT2ZlY" : {
+      "imageKey" : "-KBBwiWy8A3FeYSdozIo",
+      "textKey" : "-KBBwiVOzBqG8e_hJWyD"
+    },
+    "-KBBwqhCQvpovH7TcgCr" : {
+      "imageKey" : "-KBBwqXgwDXZUP7LuU1f",
+      "textKey" : "-KBBwqLtLTLfECATLMLI"
+    },
+    "-KBBxHqvn9UQk5pMoVvp" : {
+      "imageKey" : "-KBBxHjyPKeuAFP_u2j8",
+      "textKey" : "-KBBxHbs-7PwEW2PnjzD"
+    },
+    "-KBBxRA4Vqgbe2ZNb2_9" : {
+      "imageKey" : "-KBBxQztMduWIXIqJEXY",
+      "textKey" : "-KBBxQKaAME3_KmvIEYd"
+    },
+    "-KBBy2XYTPIm-xUYxkde" : {
+      "imageKey" : "-KBBy2TcY35naehDsc8A",
+      "textKey" : "-KBBy2H6NjBtxovNeKHx"
+    }
+  },
+  "images" : {
+    "-KBBur_tm-hh-p_0poJ3" : {
+      "url" : ""
+    },
+    "-KBBuws6hEKJZkviMMmU" : {
+      "url" : ""
+    },
+    "-KBBvH3IBBoqMRcd1D4u" : {
+      "url" : ""
+    },
+    "-KBBvUi78uSJ2jByk5-C" : {
+      "url" : ""
+    },
+    "-KBBw4H21Q5DjycgdAZU" : {
+      "url" : ""
+    },
+    "-KBBwIJrB-sNnGLBw_kB" : {
+      "url" : ""
+    },
+    "-KBBwV4sEJPk3W3s_wKv" : {
+      "url" : ""
+    },
+    "-KBBwiWy8A3FeYSdozIo" : {
+      "url" : ""
+    },
+    "-KBBwqXgwDXZUP7LuU1f" : {
+      "url" : ""
+    },
+    "-KBBxHjyPKeuAFP_u2j8" : {
+      "url" : ""
+    },
+    "-KBBxQztMduWIXIqJEXY" : {
+      "url" : ""
+    },
+    "-KBBy2TcY35naehDsc8A" : {
+      "url" : ""
+    }
+  },
+  "texts" : {
+    "-KBBpSZ2b1PN4i4CVyU6" : {
+      "en" : {
+        "p" : "<p>Candy Flip es una disquera de música electrónica que trabaja con géneros como:<br></p><ul><li><p><b>Deep House</b></p></li><li><p><b>Nu Disco</b></p></li><li><p><b>Indie Dance</b></p></li><li><p><b>Future Bass</b></p></li><li><p><b>Future House</b></p></li><li><p><b>Tropical House</b></p></li></ul>",
+        "subtitle" : "",
+        "title" : "Quiénes Somos"
+      },
+      "es" : {
+        "p" : "<p>Candy Flip es una disquera de música electrónica que trabaja con géneros como:<br></p><ul><li><p><b>Deep House</b></p></li><li><p><b>Nu Disco</b></p></li><li><p><b>Indie Dance</b></p></li><li><p><b>Future Bass</b></p></li><li><p><b>Future House</b></p></li><li><p><b>Tropical House</b></p></li></ul>",
+        "subtitle" : "",
+        "title" : "Quiénes Somos"
+      }
+    },
+    "-KBBuTDcvsoDvjXo_qyX" : {
+      "en" : {
+        "p" : "<p>El primer lanzamiento de la disquera fue en Julio del 2015 y actualmente llevamos <b>12 lanzamientos</b>, de artistas <b>Colombianos, Brasileños, Españoles, Ingleses </b>y<b> Japoneses.</b></p>",
+        "subtitle" : "",
+        "title" : "Lanzamientos"
+      },
+      "es" : {
+        "p" : "<p>El primer lanzamiento de la disquera fue en Julio del 2015 y actualmente llevamos <b>12 lanzamientos</b>, de artistas <b>Colombianos, Brasileños, Españoles, Ingleses </b>y<b> Japoneses.</b></p>",
+        "subtitle" : "",
+        "title" : "Lanzamientos"
+      }
+    },
+    "-KBBucJSyCJX8IbRnwY-" : {
+      "en" : {
+        "p" : "<p>Candy Flip cuenta con un Radio Show mensual en <b>Digitally Imported</b>, una de las plataformas de Radio Online más importantes de la Música Electrónica.</p>",
+        "subtitle" : "",
+        "title" : "Radio Show"
+      },
+      "es" : {
+        "p" : "<p>Candy Flip cuenta con un Radio Show mensual en <b>Digitally Imported</b>, una de las plataformas de Radio Online más importantes de la Música Electrónica.</p>",
+        "subtitle" : "",
+        "title" : "Radio Show"
+      }
+    },
+    "-KBBukYTQm5RkvFjMxo-" : {
+      "en" : {
+        "p" : "<p><br></p>",
+        "subtitle" : "",
+        "title" : "Prensa"
+      },
+      "es" : {
+        "p" : "<p><br></p>",
+        "subtitle" : "",
+        "title" : "Prensa"
+      }
+    },
+    "-KBBurXtK__BWJxYghZ5" : {
+      "en" : {
+        "p" : "<p>El Lanzamiento de <b>KVSH – Fated</b>, fue apoyado por el Dj y Productor <b>Don Diablo</b>, mundialmente reconocido en la escena, en el episodio 025 de su Radio Show, <b>Hexagon Radio</b>.<br></p>",
+        "subtitle" : "",
+        "title" : ""
+      },
+      "es" : {
+        "p" : "<p>El Lanzamiento de <b>KVSH – Fated</b>, fue apoyado por el Dj y Productor <b>Don Diablo</b>, mundialmente reconocido en la escena, en el episodio 025 de su Radio Show, <b>Hexagon Radio</b>.<br></p>",
+        "subtitle" : "",
+        "title" : ""
+      }
+    },
+    "-KBBuwqSzwrpgxG1DpsE" : {
+      "en" : {
+        "p" : "<p>El Lanzamiento de <b>Irama Pacific – Free</b> quedó en el puesto <b>#4</b> del Top 25 de <b>Radiónica</b> por <b>6 semanas</b> consecutivas.<br></p><p>Este Duo Colombiano ha tenido una gran cobertura en medios independientes como la <b>Revista Metrónomo, Vice </b>y<b> Thump Colombia</b>.</p>",
+        "subtitle" : "",
+        "title" : ""
+      },
+      "es" : {
+        "p" : "<p>El Lanzamiento de <b>Irama Pacific – Free</b> quedó en el puesto <b>#4</b> del Top 25 de <b>Radiónica</b> por <b>6 semanas</b> consecutivas.<br></p><p>Este Duo Colombiano ha tenido una gran cobertura en medios independientes como la <b>Revista Metrónomo, Vice </b>y<b> Thump Colombia</b>.</p>",
+        "subtitle" : "",
+        "title" : ""
+      }
+    },
+    "-KBBvD0HKOSeDNPdiKVw" : {
+      "en" : {
+        "p" : "<p>Candy Flip además de ser una disquera, ha comenzado a emprender un nuevo proyecto de eventos con el fin de promover la música electrónica a lo largo del globo empezando por Colombia, con el fin de traer nuevas propuestas de la industria al país.</p>",
+        "subtitle" : "",
+        "title" : "Eventos"
+      },
+      "es" : {
+        "p" : "<p>Candy Flip además de ser una disquera, ha comenzado a emprender un nuevo proyecto de eventos con el fin de promover la música electrónica a lo largo del globo empezando por Colombia, con el fin de traer nuevas propuestas de la industria al país.</p>",
+        "subtitle" : "",
+        "title" : "Eventos"
+      }
+    },
+    "-KBBvGstNYqvTBYUXe6y" : {
+      "en" : {
+        "p" : "<p>Estuvimos en la Terraza de Armando Records con el Dj y Productor Australiano, Cassian, liderando el cartel de nuestro primer evento en Colombia<br></p>",
+        "subtitle" : "Septiembre 4, 2015",
+        "title" : "Cassian&nbsp;"
+      },
+      "es" : {
+        "p" : "<p>Estuvimos en la Terraza de Armando Records con el Dj y Productor Australiano, Cassian, liderando el cartel de nuestro primer evento en Colombia<br></p>",
+        "subtitle" : "Septiembre 4, 2015",
+        "title" : "Cassian&nbsp;"
+      }
+    },
+    "-KBBvPWTZmlqorz8NFFR" : {
+      "en" : {
+        "p" : "<p>¡Entendiendo que la cooperación en la industria es vital para un crecimiento sostenible de la misma, nos hemos asociado con diferentes marcas a lo largo del mundo para poder llevar a cabo nuestra misión!</p>",
+        "subtitle" : "",
+        "title" : "Asociaciones"
+      },
+      "es" : {
+        "p" : "<p>¡Entendiendo que la cooperación en la industria es vital para un crecimiento sostenible de la misma, nos hemos asociado con diferentes marcas a lo largo del mundo para poder llevar a cabo nuestra misión!</p>",
+        "subtitle" : "",
+        "title" : "Asociaciones"
+      }
+    },
+    "-KBBvUgb-FdlaXDOeRXk" : {
+      "en" : {
+        "p" : "<p>Con el fin de crear diferentes experiencias a través de la electrónica y los sonidos latinoamericanos surge <b>Nómada Records</b>; la unión musical de varios <b>DJ’s</b> y <b>productores</b> que buscan transitar a través de varias melodías y compartir conocimientos alrededor de los talentos que se extienden por distintas regiones de nuestros país.</p>",
+        "subtitle" : "www.nomadarecords.com",
+        "title" : "Nómada Records&nbsp;"
+      },
+      "es" : {
+        "p" : "<p><br></p>",
+        "subtitle" : "",
+        "title" : ""
+      }
+    },
+    "-KBBw4FJiojbSe6APnoW" : {
+      "en" : {
+        "p" : "<p>Mientras L'Affaire Musicale ha obtenido una reputación por haber incubado algunos de los <b>Top productores/DJ’s</b> de todo el mundo para estar siempre a la vanguardia de la  creciente demanda de música en <b>Los Ángeles</b>, también ha sido la principal marca detrás de la reciente explosión del <b>Nu Disco</b> y el <b>Tropical Sound</b>. &nbsp;</p>",
+        "subtitle" : "www.laffairemusicale.com",
+        "title" : "L’affaire Musicale&nbsp;"
+      },
+      "es" : {
+        "p" : "<p>Mientras L'Affaire Musicale ha obtenido una reputación por haber incubado algunos de los <b>Top productores/DJ’s</b> de todo el mundo para estar siempre a la vanguardia de la  creciente demanda de música en <b>Los Ángeles</b>, también ha sido la principal marca detrás de la reciente explosión del <b>Nu Disco</b> y el <b>Tropical Sound</b>. &nbsp;</p>",
+        "subtitle" : "www.laffairemusicale.com",
+        "title" : "L’affaire Musicale&nbsp;"
+      }
+    },
+    "-KBBwIAew3KjdJhMnUum" : {
+      "en" : {
+        "p" : "<p>Ultra Dance Society nació en las calles de <b>Seoul</b> con el propósito de promover y fomentar la música electrónica a lo largo y ancho de asia. Han sido los organizadores del <b>Asian Tour</b> de <b>múltiples artistas de la escena</b> en los últimos años desde su fundación en <b>2013</b>.&nbsp;</p>",
+        "subtitle" : "www.ultradancesociety.blogspot.com",
+        "title" : "Ultra Dance Society&nbsp;"
+      },
+      "es" : {
+        "p" : "<p>Ultra Dance Society nació en las calles de <b>Seoul</b> con el propósito de promover y fomentar la música electrónica a lo largo y ancho de asia. Han sido los organizadores del <b>Asian Tour</b> de <b>múltiples artistas de la escena</b> en los últimos años desde su fundación en <b>2013</b>.&nbsp;</p>",
+        "subtitle" : "www.ultradancesociety.blogspot.com",
+        "title" : "Ultra Dance Society&nbsp;"
+      }
+    },
+    "-KBBwSBW-K2z_J_R2oiA" : {
+      "en" : {
+        "p" : "<p><br></p>",
+        "subtitle" : "",
+        "title" : "El futuro"
+      },
+      "es" : {
+        "p" : "<p><br></p>",
+        "subtitle" : "",
+        "title" : "El futuro"
+      }
+    },
+    "-KBBwV1c-ddktQiGQSNI" : {
+      "en" : {
+        "p" : "<p>Criada en Nueva York, y establecida en Los Angeles, Louisahhh es una DJ  y Productora de <b>Techno</b> y <b>House</b>. También es vocalista y compositora con lanzamientos en <b>Bromance</b> y <b>Hot Creations</b> , entre otros. Se presentará en <b>Barranquilla</b>* y <b>Bogotá</b>*. </p><p>* Los escenarios y fechas están por confirmar.</p>",
+        "subtitle" : "Noviembre 6 y 7, 2015",
+        "title" : "Louisahhh Colombian Tour&nbsp;"
+      },
+      "es" : {
+        "p" : "<p>Criada en Nueva York, y establecida en Los Angeles, Louisahhh es una DJ  y Productora de <b>Techno</b> y <b>House</b>. También es vocalista y compositora con lanzamientos en <b>Bromance</b> y <b>Hot Creations</b> , entre otros. Se presentará en <b>Barranquilla</b>* y <b>Bogotá</b>*. </p><p>* Los escenarios y fechas están por confirmar.</p>",
+        "subtitle" : "Noviembre 6 y 7, 2015",
+        "title" : "Louisahhh Colombian Tour&nbsp;"
+      }
+    },
+    "-KBBwiVOzBqG8e_hJWyD" : {
+      "en" : {
+        "p" : "<p>El dúo Bodhi llegará al territorio colombiano para ofrecer un par de noches inolvidables de <b>deep house</b> tanto en <b>Bogotá</b>* como en <b>Barranquilla</b>*.</p><p>* Los escenarios y fechas están por confirmar.</p>",
+        "subtitle" : "Noviembre 27 y 28, 2015",
+        "title" : "Bodhi Colombian Tour&nbsp;"
+      },
+      "es" : {
+        "p" : "<p>El dúo Bodhi llegará al territorio colombiano para ofrecer un par de noches inolvidables de <b>deep house</b> tanto en <b>Bogotá</b>* como en <b>Barranquilla</b>*.</p><p>* Los escenarios y fechas están por confirmar.</p>",
+        "subtitle" : "Noviembre 27 y 28, 2015",
+        "title" : "Bodhi Colombian Tour&nbsp;"
+      }
+    },
+    "-KBBwqLtLTLfECATLMLI" : {
+      "en" : {
+        "p" : "<p>En <b>Los Ángeles</b>, justo en el corazón de <b>Hollywood</b>, se encuentra el único e innovador Sound Nightclub, el cual cuenta con <b>sonido hecho a medida</b> y un sistema de <b>mapeo 3D</b> que controla la atmósfera del lugar, ofreciendo una experiencia diferente cada noche. </p><p>Sound Nightclub es reconocido en la escena undeground del <b>Deep House, Indie Dance, Techno, House </b>y <b>Nu Disco</b>.</p>",
+        "subtitle" : "Enero 21, 2016",
+        "title" : "Bodhi &amp; Jerry Folk in \nSound Nightclub"
+      },
+      "es" : {
+        "p" : "<p><br></p>",
+        "subtitle" : "",
+        "title" : ""
+      }
+    },
+    "-KBBxA6pE9v8xlPPO1DU" : {
+      "en" : {
+        "p" : "<p>Gracias a nuestra Alianza con Ultra Dance Society, estamos organizando eventos en Seoul, Taipei, Shanghai y Hong Kong a lo largo del segundo Trimestre del 2016.</p>",
+        "subtitle" : "",
+        "title" : "Candy Flip Asian Tour"
+      },
+      "es" : {
+        "p" : "<p>Gracias a nuestra Alianza con Ultra Dance Society, estamos organizando eventos en Seoul, Taipei, Shanghai y Hong Kong a lo largo del segundo Trimestre del 2016.</p>",
+        "subtitle" : "",
+        "title" : "Candy Flip Asian Tour"
+      }
+    },
+    "-KBBxHbs-7PwEW2PnjzD" : {
+      "en" : {
+        "p" : "<p>Busy P es un aclamado DJ y Productor Francés quien dirige la Disquera Ed Banger Records. El sello es el hogar de los actos electrónicos franceses Justice y Breakbot.</p><p><ul><li><b>Taipei (19/02)<br></b>Neo Studio</li></ul></p>",
+        "subtitle" : "Febrero 19, 2016",
+        "title" : "Busy P&nbsp;"
+      },
+      "es" : {
+        "p" : "<p>Busy P es un aclamado DJ y Productor Francés quien dirige la Disquera Ed Banger Records. El sello es el hogar de los actos electrónicos franceses Justice y Breakbot.</p><p><ul><li><b>Taipei (19/02)<br></b>Neo Studio</li></ul></p>",
+        "subtitle" : "Febrero 19, 2016",
+        "title" : "Busy P&nbsp;"
+      }
+    },
+    "-KBBxQKaAME3_KmvIEYd" : {
+      "en" : {
+        "p" : "<p>Bondax es un dúo de música electrónica formado por músicos ingleses Adam Kaye y George Townsend. El grupo ganó prominencia como resultado del programa <b>Introducing Lancashire</b> de <b>BBC Radio</b>.</p><p>Se presentará en <b>Seoul</b>, <b>Taipei</b>, <b>Hong Kong</b>* y <b>Shangai</b>*.</p><ul><li><b>Seoul (01/04)</b><br>Cakeshop*&nbsp;</li><li><p><b>Taipei (02/04)</b><br>Korner</p></li></ul><p>*Los escenarios están por confirmar.<br></p>",
+        "subtitle" : "Abril 01 y 02, 2016",
+        "title" : "Bondax Asian Tour&nbsp;"
+      },
+      "es" : {
+        "p" : "<p>Bondax es un dúo de música electrónica formado por músicos ingleses Adam Kaye y George Townsend. El grupo ganó prominencia como resultado del programa <b>Introducing Lancashire</b> de <b>BBC Radio</b>.</p><p>Se presentará en <b>Seoul</b>, <b>Taipei</b>, <b>Hong Kong</b>* y <b>Shangai</b>*.</p><ul><li><b>Seoul (01/04)</b><br>Cakeshop*&nbsp;</li><li><p><b>Taipei (02/04)</b><br>Korner</p></li></ul><p>*Los escenarios están por confirmar.<br></p>",
+        "subtitle" : "Abril 01 y 02, 2016",
+        "title" : "Bondax Asian Tour&nbsp;"
+      }
+    },
+    "-KBBy2H6NjBtxovNeKHx" : {
+      "en" : {
+        "p" : "<p>Hayden James es un cantante / compositor y productor de <b>Sydney, Australia</b>. Firmado en el sello Australiano <b>Future Classic</b>. Se presentará en <b>Seoul</b>, <b>Taipei</b>, <b>Hong Kong</b>* y <b>Shangai</b>*.</p><ul><li><b>Seoul (11/03)<br></b>Cakeshop*</li><li><b>Taipei (12/03)<br></b>Korner</li></ul><p>*Los escenarios están por confirmar.<br></p>",
+        "subtitle" : "Marzo 11 y 12, 2016",
+        "title" : "Hayden James Asian Tour&nbsp;"
+      },
+      "es" : {
+        "p" : "<p>Hayden James es un cantante / compositor y productor de <b>Sydney, Australia</b>. Firmado en el sello Australiano <b>Future Classic</b>. Se presentará en <b>Seoul</b>, <b>Taipei</b>, <b>Hong Kong</b>* y <b>Shangai</b>*.</p><ul><li><b>Seoul (11/03)<br></b>Cakeshop*</li><li><b>Taipei (12/03)<br></b>Korner</li></ul><p>*Los escenarios están por confirmar.<br></p>",
+        "subtitle" : "Marzo 11 y 12, 2016",
+        "title" : "Hayden James Asian Tour&nbsp;"
+      }
+    }
+  }
+}

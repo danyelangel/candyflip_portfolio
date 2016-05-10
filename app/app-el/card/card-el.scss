@@ -1,0 +1,87 @@
+card-el {
+  position: relative;
+  md-card {
+    position: relative;
+    background: #fff;
+  }
+  .h3, .h4 {
+    margin: 0;
+  }
+  .h3 {
+    color: #666;
+    font-size: 25px;
+    font-weight: 400;
+    margin-bottom: 0.25em;
+  }
+  .h4 {
+    color: #999;
+    font-size: 18px;
+    font-weight: 300;
+    a:hover {
+      text-decoration: underline;
+    }
+  }
+  .h4>a {
+    text-decoration: none;
+    color: #B0BEC5;
+    font-weight: 400;
+    cursor: pointer;
+  }
+  .p {
+    ul {
+      padding: 0;
+      li {
+        padding-left: 0.5em;
+        border-left: 4px solid #ddd;
+        margin-left: 0.5em;
+      }
+    }
+  }
+  .gallery-wrapper {
+    width: 100%;
+    overflow-x: auto;
+  }
+  md-card-title-text {
+    justify-content: center;
+  }
+  md-card-title-media .md-media-lg {
+    height: auto !important;
+    padding-right: 1em;
+  }
+  .controls, .bottom-control {
+    opacity: 0;
+    transition: opacity 0.15s;
+  }
+  .controls {
+    position: absolute;
+    z-index: 2;
+    right: 0;
+    padding: 1em;
+    background: #fff;
+    border-radius: 0 0 0 20px;
+    a:hover {
+      opacity: 0.75;
+    }
+  }
+  .bottom-control.hover {
+    opacity: 1;
+  }
+  .controls.hover {
+    opacity: 0.75;
+  }
+  .remove-gallery {
+    width: 100%;
+    display: block;
+    height: 0;
+    text-align: center;
+    transform: scale(0.75);
+    transition: opacity 0.1s;
+    opacity: 1;
+    i {
+      vertical-align: bottom;
+    }
+  }
+  .remove-gallery:hover {
+    opacity: 0.75;
+  }
+}

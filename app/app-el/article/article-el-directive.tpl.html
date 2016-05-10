@@ -1,0 +1,27 @@
+<h1 ng-if="article.authData"
+    medium-editor
+    ng-model="article.text[article.lang].title"
+    data-placeholder="Título"
+    bind-options="{disableReturn: true, disableExtraSpaces: true, toolbar: false}"></h1>
+<h2 ng-if="article.authData"
+    medium-editor
+    ng-model="article.text[article.lang].subtitle"
+    data-placeholder="Subtítulo"
+    bind-options="{disableReturn: true, disableExtraSpaces: true, toolbar: false}"></h2>
+<br>
+<div class="article-description"
+     ng-if="article.authData"
+     medium-editor
+     ng-model="article.text[article.lang].p"
+     data-placeholder="Descripción"
+     bind-options="{'toolbar': {'buttons': ['bold', 'italic', 'underline', 'unorderedlist', 'anchor']}, disableExtraSpaces: true}"></div>
+
+<h1 ng-if="!article.authData && article.text[article.lang].title"
+    ng-bind-html="article.text[article.lang].title"></h1>
+<h2 ng-if="!article.authData && article.text[article.lang].subtitle"
+    ng-bind-html="article.text[article.lang].subtitle"></h2>
+<br>
+<div class="article-description"
+     ng-if="!article.authData && article.text[article.lang].p  !== '<p><br></p>'"
+     ng-bind-html="article.text[article.lang].p"></div>
+<div ng-transclude></div>

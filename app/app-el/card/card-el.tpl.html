@@ -1,0 +1,108 @@
+<md-card ng-if="$ctrl.authData || $ctrl.text[$ctrl.lang].title"
+         ng-mouseenter="hover=true"
+         ng-mouseleave="hover=false">
+  <div ng-transclude></div>
+  <div ng-if="$ctrl.youtube">
+    <a ob-lazytube 
+       href="{{$ctrl.youtube}}"></a>
+  </div>
+  <md-card-title>
+    <md-card-title-media ng-show="$ctrl.imageExists || $ctrl.authData">
+      <div class="md-media-lg card-media">
+        <image-el ng-if="$ctrl.card.imageKey"
+                  class="md-card-image"
+                  key="$ctrl.card.imageKey"
+                  image-exists="$ctrl.imageExists">
+        </image-el>
+      </div>
+    </md-card-title-media>
+    <md-card-title-text>
+      
+      <!--Editable Text Element (H3) -->
+      <editable-text-el
+              wc-model="$ctrl.text[$ctrl.lang].title"
+              wc-class="['h3']"
+
+              text-placeholder="Título"
+              disable-return="true"
+              disable-extra-spaces="true"
+
+              disable-editing="!$ctrl.authData"
+              ng-if="$ctrl.authData || $ctrl.text[$ctrl.lang].title">
+      </editable-text-el>
+      
+      <!--Editable Text Element (H4) -->
+      <editable-text-el
+              wc-model="$ctrl.text[$ctrl.lang].subtitle"
+              wc-class="['h4']"
+
+              text-placeholder="Subtítulo"
+              toolbar-buttons="['anchor']"
+              disable-return="true"
+              disable-extra-spaces="true"
+
+              disable-editing="!$ctrl.authData"
+              ng-if="$ctrl.authData || $ctrl.text[$ctrl.lang].subtitle">
+      </editable-text-el>
+      
+      <div ng-bind-html="$ctrl.soundcloudHtml"></div>
+    </md-card-title-text>
+  </md-card-title>
+  <md-card-content>
+    
+    <!--Editable Text Element-->
+    <editable-text-el
+            wc-model="$ctrl.text[$ctrl.lang].p"
+            wc-class="['p']"
+
+            text-placeholder="Descripción"
+            toolbar-buttons="['bold','italic','underline','unorderedlist','anchor']"
+            disable-extra-spaces="true"
+
+            disable-editing="!$ctrl.authData"
+            ng-if="$ctrl.authData || $ctrl.text[$ctrl.lang].p !== '<p><br></p>'">
+    </editable-text-el>
+    <!--Editable Text Element (End)-->
+    
+    <br>
+    <gallery-el key="$ctrl.card.galleryKey" 
+                ng-if="$ctrl.card.galleryKey">
+      <a class="remove-gallery"
+         ng-click="$ctrl.removeGallery()"
+         ng-if="$ctrl.authData">
+        <i class="material-icons">remove_circle_outline</i>
+        Remove Gallery
+      </a>
+    </gallery-el>
+  </md-card-content>
+  <md-card-actions layout="row" 
+                   layout-align="center center">
+    <md-button class="md-icon-button bottom-control" 
+               ng-if="$ctrl.authData && !$ctrl.card.galleryKey"
+               ng-class="{hover: hover}"
+               ng-click="$ctrl.addGallery()">
+      <i class="material-icons">add_a_photo</i>
+      <md-tooltip md-direction="bottom">
+        Add Gallery
+      </md-tooltip>
+    </md-button>
+    <md-button class="md-icon-button bottom-control" 
+               ng-if="$ctrl.authData"
+               ng-class="{hover: hover}"
+               ng-click="$ctrl.editYoutube()">
+      <i class="material-icons">videocam</i>
+      <md-tooltip md-direction="bottom">
+        Edit Youtube video
+      </md-tooltip>
+    </md-button>
+    <md-button class="md-icon-button bottom-control" 
+               ng-if="$ctrl.authData"
+               ng-class="{hover: hover}"
+               ng-click="$ctrl.editSoundcloud()">
+      <i class="material-icons">music_note</i>
+      <md-tooltip md-direction="bottom">
+        Edit Soundcloud link
+      </md-tooltip>
+    </md-button>
+  </md-card-actions>
+</md-card>
